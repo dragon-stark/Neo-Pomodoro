@@ -1,0 +1,368 @@
+.root {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 63px 0;
+  border-radius: 40px;
+  background-image: linear-gradient(153.6deg, #464c6eff 0%, #272b45ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.pomodoro {
+  width: 375px;
+  height: 32px;
+  text-align: center;
+  align-items: center;
+  text-shadow: 1px 1px 1px #262b4652;
+  flex-direction: column;
+}
+
+.textBlock {
+  background-image: linear-gradient(-81.3deg, #d2d6efff 0%, #9299c2ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+  font-family: Shree Devanagari 714, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.textBlock2 {
+  margin-top: 0;
+  background-image: linear-gradient(-81.3deg, #d2d6efff 0%, #9299c2ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+  font-family: Shree Devanagari 714, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.group14 {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+
+.rectangle14 {
+  opacity: 0.95;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  background-image: linear-gradient(135deg, #424869ff 0%, #4a5178ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: 8px 8px 18px 0px #363b5733, -6px -6px 20px 0px #555d838f, inset -1px -1px 4px 0px #535c881f,
+    inset 1px 1px 1px 0px #2631690d;
+}
+
+.silent1 {
+  position: absolute;
+  left: 27.2727%;
+  right: 27.2727%;
+  top: 25%;
+  bottom: 29.5455%;
+  width: 20px;
+  height: 20px;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
+.line9 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: 68.1818%;
+  right: -24.4519%;
+  top: 29.0909%;
+  bottom: 68.1818%;
+  max-width: 100%;
+  max-height: 100%;
+  transform: matrix(-0.727, 0.6866, -0.6866, -0.727, 0, 0);
+}
+
+.group16 {
+  width: 44px;
+  height: 44px;
+  overflow: visible;
+}
+
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+
+.group13 {
+  position: relative;
+  width: 280px;
+  height: 280px;
+}
+
+.rectangle20 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 280px;
+  height: 280px;
+  border-radius: 200px;
+  background-image: linear-gradient(135deg, #494f74ff 0%, #3a3f5eff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: inset 2px 2px 2px 0px #535c881c, 12px 12px 32px 0px #2e334e, -12px -12px 32px 0px #495073b8;
+}
+
+.rectangle21 {
+  position: absolute;
+  left: 16.4286%;
+  right: 16.4286%;
+  top: 16.4286%;
+  bottom: 16.4286%;
+  width: 188px;
+  height: 188px;
+  border-radius: 200px;
+  background-image: linear-gradient(135deg, #494f74ff 0%, #3a3f5eff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: inset 2px 2px 2px 0px #535c881c, 12px 12px 32px 0px #2e334e, -12px -12px 32px 0px #495073b8;
+}
+
+.minutes {
+  position: absolute;
+  left: 30%;
+  right: 29.6429%;
+  top: 51.0714%;
+  bottom: 40%;
+  width: 113px;
+  height: 25px;
+  text-align: center;
+  align-items: center;
+  text-shadow: 1px 1px 1px #262b4652;
+  flex-direction: column;
+}
+
+.textBlock3 {
+  background-image: linear-gradient(-68.3deg, #d2d6efff 0%, #9299c2ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-family: Quicksand, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.textBlock4 {
+  margin-top: 0;
+  background-image: linear-gradient(-68.3deg, #d2d6efff 0%, #9299c2ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-family: Quicksand, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+._19 {
+  position: absolute;
+  left: 30%;
+  right: 29.6429%;
+  top: 32.1429%;
+  bottom: 50.7143%;
+  width: 113px;
+  height: 48px;
+  text-align: center;
+  align-items: center;
+  text-shadow: 1px 1px 1px #262b4652;
+  flex-direction: column;
+}
+
+.textBlock5 {
+  background-image: linear-gradient(-52.6deg, #d2d6efff 0%, #9299c2ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-family: Quicksand, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.textBlock6 {
+  margin-top: 0;
+  background-image: linear-gradient(-52.6deg, #d2d6efff 0%, #9299c2ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-family: Quicksand, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.yearly {
+  position: absolute;
+  left: 6.7857%;
+  right: 6.533%;
+  top: 6.4286%;
+  bottom: 7.6045%;
+  width: 242.7075px;
+  height: 240.7075px;
+  overflow: visible;
+}
+
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+
+.work {
+  background-image: linear-gradient(-81.3deg, #d2d6efff 0%, #9299c2ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 26px;
+  font-family: Shree Devanagari 714, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+  width: 375px;
+  height: 32px;
+  text-align: center;
+  align-items: center;
+  text-shadow: 1px 1px 1px #262b4652;
+  flex-direction: column;
+}
+
+.dots {
+  position: relative;
+  width: 52px;
+  height: 12px;
+}
+
+.rectangle35 {
+  position: absolute;
+  left: 38.4615%;
+  right: 38.4615%;
+  top: 0;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 8px;
+  background-image: linear-gradient(135deg, #4f567fff 11%, #2a304aff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: -2px -2px 4px 0px #4e557ccc, 2px 2px 4px 0px #323653bf;
+}
+
+.rectangle37 {
+  position: absolute;
+  left: 76.9231%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 8px;
+  background-image: linear-gradient(135deg, #4f567fff 11%, #2a304aff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: -2px -2px 4px 0px #4e557ccc, 2px 2px 4px 0px #323653bf;
+}
+
+.rectangle36 {
+  position: absolute;
+  left: 0;
+  right: 76.9231%;
+  top: 0;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 8px;
+  background-image: radial-gradient(ellipse 6.166666759010489px 17.282545410233514px at 3.3393808205531945px 0.5478809397521989px,
+      #612ff5ff 0%,
+      #855cffff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.group12 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.rectangle142 {
+  opacity: 0.95;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 21px;
+  background-image: linear-gradient(135deg, #424869ff 0%, #4a5178ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: 8px 8px 18px 0px #363b5733, -6px -6px 20px 0px #555d838f, inset -1px -1px 4px 0px #535c881f,
+    inset 1px 1px 1px 0px #2631690d;
+}
+
+.vector {
+  position: absolute;
+  left: 31.25%;
+  right: 29.6875%;
+  top: 28.125%;
+  bottom: 26.5625%;
+  overflow: visible;
+}
+
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
